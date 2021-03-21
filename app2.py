@@ -41,6 +41,7 @@ import plotly.express as px
 # Minty: https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css
 theme = "assets/bootstrap.min.css"
 app = dash.Dash(external_stylesheets=[theme])
+server = app.server
 
 def load_data():
      #df = pd.read_csv(csv_path)
@@ -2279,4 +2280,4 @@ def b64img2pil(self, b64):
 
 
 if __name__ == "__main__":
-    app.run_server(port=8888, debug=True)
+    app.run_server(port=8888, debug=False)
