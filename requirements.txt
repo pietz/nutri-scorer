@@ -1,0 +1,12 @@
+datetime
+dash
+dash_bootstrap_components
+dash_core_components
+dash_html_components
+dash-extensions
+dash-daq
+dash_table
+iris
+Pillow
+pandas
+joblib
